@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&family=Shizuru&family=Work+Sans:ital,wght@1,200&display=swap');
+
+
+*{
+    margin: 0;
+padding: 0px;
+}
+
+
+.sidebar{
+    background-color:rgb(218, 214, 214);
+    /* width: 270px; */
+    font-family: 'Shizuru', cursive;
+    height: 100vh;
+    transition: transform 0.1s ease-in;
+    position: absolute;
+}
+
+.sidebar nav{
+    padding: 23px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 21px;
+    padding: 27px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: bisque; */
+    width: 90vw;
+    padding: 21px;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: blueviolet; */
+    height: 60vh;
+    width: 75vw;
+    margin: 162px auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.devinfo{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 3em;
+}
+
+.Name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.About{
+    font-size: 2.5em;
+}
+
+.Moreabout{
+    font-size: 1em;
+    margin-top: 27px;
+    font-family: 'Shizuru', cursive;
+}
+
+.buttons{
+    margin-top: 2.2em;
+    font-size: 17px;
+}
+
+.btn{
+    padding: 10px 15px;
+    border-radius: 23px;
+    color: aliceblue;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 2.2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 11px;
+    padding: 13px 17px;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    background-color: azure;
+    color:dodgerblue ;
+}
+
+.devpic img {
+    height: 60vh;
+}
+
+
+
+
+.contactform {
+    padding: 0 15px;
+    /* padding-top: 61px; */
+    font-family: 'Work Sans', sans-serif;    
+    margin: 50px 87px;
+}
+
+
+.contactform h1{
+    font-family: 'Roboto Mono', monospace;
+    /* padding: 15px 0; */
+}
+
+.contactform form div{
+    padding: 12px 0;
+    font-size: 27px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    /* width: 31vw; */
+    border-radius:12px;
+    margin: 11px 0 0 0;
+    padding: 8px;
+}
+.contactform form {
+    margin: 0 40px;
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 5px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 27px;
+    font-size: 27x;
+}
+
+.blogContainer{
+    margin: 88px;
+}
+
+
+.blogItem{
+    margin: 21px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.blogContainer h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 27px;
+}
+.blogItem p{
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    margin: 27px;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+.intro{
+    margin: 27px 80px;
+}
+
+.intro h2{
+    margin: 15px;
+}
+
+.intro p{
+    font-family: 'Roboto Mono', monospace;
+    margin: 15px;
+}
+
+.skillcontainer{
+    padding: 15px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 927;
+}
+
+.skill{
+    width: 270px;
+    height: 7px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: green;
+}
+
+.fifty{
+    width: 135px;
+    background-color: yellow;
+}
+
+.t5{
+    width: 99px;
+    background-color: red;
+}
+.sidebarGo {
+    transform: translate(-444px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 127px;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 980px){
+.buttons{
+    font-size: 7px;
+}
+    .devinfo{
+        font-size: 12px;
+    }
+    .devpic{
+        display: none;
+    }
+    .intro, .blogContainer, .contactform{
+        margin: 50px 9px;
+    }
+}
+
+
+
+
+
+
